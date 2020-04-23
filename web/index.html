@@ -26,8 +26,22 @@
 
 <h4 style="text-align:center">Sequence of Moves</h4>
 
-<output class="moves-sequence-box" id="movesSequence" value = ''></output>
+<output class="moves-sequence-box" id="movesSequence"></output>
+<button class="clear-button" id="copyButton">Copy Sequence</button>
    
 
 <button id="clearButton" class="clear-button"> Reset </button>
+
+
+
+<script>
+    function copyFunction() {
+        
+      var copyText = document.getElementById("movesSequence");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999)
+      document.execCommand("copy");
+    }
+    </script>
+
 </html>
