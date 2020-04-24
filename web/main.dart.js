@@ -1232,7 +1232,8 @@ eG:function(a){var u=window.getSelection(),t=document,s=t.createRange()
 s.selectNodeContents($.aZ)
 u.removeAllRanges()
 u.addRange(s)
-t.execCommand("copy")},
+t.execCommand("copy")
+window.alert("text was copied")},
 dF:function(){var u,t,s,r,q
 $.d9.textContent="0"
 $.aZ.textContent=""
