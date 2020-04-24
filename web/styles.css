@@ -16,6 +16,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 5vw;
+  max-width: fit-content;
+  max-height: fit-content;
 }
 
 .grid-item {
@@ -25,15 +27,33 @@ body {
   padding: 1vw;
   width: 10vw;
   height: 10vw;
-  font-size: 5vw;
+  max-width: 50px;
+  max-height: 50px;
+  font-size: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 1vw 1vw 1vw 1vw;
+  margin: 2px 2px 2px 2px;
   user-select: none;
-
-
 }
+
+.grid-item-even {
+  border-radius: 20%;
+  background-color: rgba(194, 214, 14, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 1vw;
+  width: 10vw;
+  height: 10vw;
+  max-width: 50px;
+  max-height: 50px;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2px 2px 2px 2px;
+  user-select: none;
+}
+
 
 .grid-item-blank {
   background-color: #2196F3;
@@ -41,9 +61,11 @@ body {
   padding: 5%;
   width: 10vw;
   height: 10vw;
-  font-size: 5vw;
+  max-width: 50px;
+  max-height: 50px;
+  font-size: 40px;
   text-align: left;
-  margin: 1vw 1vw 1vw 1vw;
+  margin: 2px 2px 2px 2px;
 }
 
 .clear-button {
