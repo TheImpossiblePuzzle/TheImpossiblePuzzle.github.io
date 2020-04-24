@@ -12,60 +12,51 @@ body {
   display: grid;
   grid-template-columns: auto auto auto auto;
   background-color: #2196F3;
-  width: fit-content;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 5vw;
-  max-width: fit-content;
-  max-height: fit-content;
+  width: 320px;
+  height: 320px;
+  position: relative;
 }
 
 .grid-item {
   border-radius: 20%;
+  position: abolute;
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 1vw;
-  width: 10vw;
-  height: 10vw;
-  max-width: 50px;
-  max-height: 50px;
-  font-size: 40px;
+  padding: 5%;
+  width: 80%;
+  height: 80%;
+  font-size: 200%;
+  margin: 2px 2px 2px 2px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 2px 2px 2px 2px;
   user-select: none;
 }
 
 .grid-item-even {
+  position: abolute;
   border-radius: 20%;
   background-color: rgba(194, 214, 14, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 1vw;
-  width: 10vw;
-  height: 10vw;
-  max-width: 50px;
-  max-height: 50px;
-  font-size: 40px;
+  padding: 5%;
+  width: 80%;
+  height: 80%;
+  margin: 2px 2px 2px 2px;
+  font-size: 200%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 2px 2px 2px 2px;
   user-select: none;
 }
 
 
 .grid-item-blank {
-  background-color: #2196F3;
-  border: 1px solid #2196F3;
-  padding: 5%;
-  width: 10vw;
-  height: 10vw;
-  max-width: 50px;
-  max-height: 50px;
-  font-size: 40px;
-  text-align: left;
-  margin: 2px 2px 2px 2px;
+  position: abolute;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid rgba(0, 0, 0, 0);
 }
 
 .clear-button {
