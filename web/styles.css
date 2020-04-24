@@ -27,7 +27,7 @@ body {
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
-  border-radius: 5px;
+  border-radius: 10px;
   width: 70px;
   height: 70px;
   font-size: 40px;
@@ -40,7 +40,7 @@ body {
 .grid-item-even {
   background-color: rgba(194, 214, 14, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
-  border-radius: 5px;
+  border-radius: 10px;
   width: 70px;
   height: 70px;
   font-size: 40px;
@@ -54,7 +54,7 @@ body {
 .grid-item-blank {
   background-color: rgba(0, 0, 0, 0);
   border: 1px solid rgba(0, 0, 0, 0);
-  border-radius: 5px;
+  border-radius: 10px;
   width: 70px;
   height: 70px;
   font-size: 40px;
@@ -81,12 +81,18 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  
 }
 
 .moves-number-output {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 20px;
 }
 
+.moves-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+  column-gap: 10px;
+}
